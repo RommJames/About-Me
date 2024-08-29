@@ -1,0 +1,153 @@
+/* root */
+*, *::after{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Important Property Value */
+:root{
+    --dark-bg-color: #1F2937;
+    --main-text-size: 48px;
+    --main-text-color: #f9faf8;
+    --main-text-weight: 900;
+    --secondary-text-size: 18px;
+    --secondary-text-color: #E5E7EB;
+    --header-logo-txt-size: 24px;
+    --header-logo-txt-color: #F9FAF8;
+    --btn-color: #3882F6;
+    --info-header-txt-size: 36px;
+    --info-header-txt-color: #1F2937;
+    --info-header-txt-weight: 900;
+    --quote-bg-color: #E5E7EB;
+    --quote-txt-size: 36px;
+    --quote-txt-style: italic;
+    --quote-txt-weight: light;
+    --quote-txt-color: #1f2937;
+}
+
+/* Section 1 - Landing Page */
+.dark-bg{
+    background-color: var(--dark-bg-color); 
+}
+.section{
+    /* height: 100vh; */       
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    padding: 10px 0 20px;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: column;
+    width: 75%;    
+    /* position: relative; */
+    /* border: 2px solid red; */
+}
+
+/* Section 1 - Header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* position: fixed;
+    right: 0;
+    left: 0; */
+}
+
+header a{
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-size: var(--secondary-text-size);
+    position: relative;
+    z-index: 1;
+    padding: 5px 10px;    
+}
+
+header a:hover::after{
+    transform: scaleX(1)
+}
+
+header a:hover{
+    font-size: var(--secondary-text-size) - 0.1;
+}
+
+header a::after{
+    content: "";
+    position: absolute;
+    border-bottom: 1.5px solid var(--main-text-color);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;    
+    transform: scaleX(0);
+    transform-origin: center;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+.header-logo img{
+    object-fit: cover;
+    object-position: center;
+    width: 80px;
+}
+
+
+
+/* Section-1 Visual */
+.visual{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* outline: 2px solid red;    */
+    flex: 1; 
+    gap: 50px;
+    margin: 50px 0px;
+}
+.visual-left > h1{
+    color: var(--main-text-color);
+    font-size: var(--main-text-size);
+    font-weight: var(--main-text-weight);    
+}
+
+.visual-left > p{
+    color: var(--secondary-text-color);
+    font-size: var(--secondary-text-size);
+    margin: 5px 0px;
+}
+
+.visual-right img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.visual-left{
+    flex-basis: 45%;    
+}
+
+.visual-right{
+    flex-grow: 1;   
+    flex-basis: 300px;
+    box-shadow: 0px -15px 15px -15px rgba(255, 255, 255, 0.1);
+}
+
+.btn{
+    background-color: var(--btn-color);
+    display: inline-block;
+    padding: 15px;
+    color: var(--secondary-text-color);
+    font-weight: var(--info-header-txt-weight);
+    border-radius: 10px;
+    margin: 10px 0px;
+}
