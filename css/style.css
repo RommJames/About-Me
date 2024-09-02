@@ -12,6 +12,42 @@ a {
     text-decoration: none;    
 }
 
+body{
+    overflow-x: hidden;
+}
+
+/* btns */
+
+.btn a{
+    display: inline-block;
+    background-color: var(--btn-color);
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    color: var(--secondary-text-color);
+    font-weight: var(--info-header-txt-weight);        
+}
+
+.btn a:hover, .social-logo:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.btn-outline a{
+    display: inline-block;
+    color: var(--secondary-text-color);
+    cursor: pointer;
+    outline: 2px solid var(--secondary-text-color);
+    border-radius: 10px;
+    padding: 10px 35px;
+    font-weight: var(--info-header-txt-weight);   
+}
+
+.btn-outline a:hover{
+    transform: scale(0.9);    
+}
+
 /* Important Property Value */
 :root{
     --dark-bg-color: #1F2937;
@@ -55,7 +91,7 @@ a {
     width: 1015px;
     /* width: 75%; */
     position: relative;
-    /* border: 2px solid red; */
+    /* border: 2px solid red; */      
 }
 
 /* Section 1 - Header */
@@ -65,19 +101,12 @@ header{
     align-items: center;
     flex-wrap: wrap;
     position: fixed;
-    background-color: #1F2937;
-    /* width: 985px; */
-    /* border-radius: 15px; */
-    /* top: 0; */
+    background-color: #1F2937;    
     right: 0;
     left: 0;
     top: 0;
     padding: 5px 15px;
-    z-index: 999999;
-    /* box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1); */
-    /* position: fixed;
-    right: 0;
-    left: 0; */
+    z-index: 999999;       
 }
 
 
@@ -87,7 +116,7 @@ header a{
     font-size: var(--secondary-text-size);
     position: relative;
     z-index: 1;
-    padding: 5px 10px;    
+    padding: 5px 10px;      
 }
 
 header a:hover::after{
@@ -101,7 +130,7 @@ header a:hover{
 header a::after{
     content: "";
     position: absolute;
-    border-bottom: 1.5px solid var(--main-text-color);
+    border-bottom: 2px solid var(--main-text-color);
     top: 0;
     left: 0;
     right: 0;
@@ -116,11 +145,11 @@ header ul{
     list-style: none;
     flex-wrap: wrap;
     gap: 5px;
-    flex-grow: 1;
+    flex-grow: 1;        
 }
 
 header li, header a{
-    flex-grow: 1;
+    flex-grow: 1;        
 }
 
 
@@ -142,7 +171,8 @@ header li, header a{
     /* outline: 2px solid red;    */
     flex: 1; 
     gap: 50px;
-    margin: 150px 0px 80px;    
+    margin: 150px 0px 80px;   
+    padding: 0px 20px; 
 }
 .visual-left > h1{
     color: var(--main-text-color);
@@ -171,21 +201,6 @@ header li, header a{
     flex-grow: 3;   
     flex-basis: 300px;
     box-shadow: 0px -15px 15px -15px rgba(255, 255, 255, 0.1);
-}
-
-.btn{
-    background-color: var(--btn-color);
-    display: inline-block;
-    padding: 15px;
-    color: var(--secondary-text-color);
-    font-weight: var(--info-header-txt-weight);
-    border-radius: 10px;
-    margin: 10px 0px;
-}
-
-.btn:hover{
-    transform: scale(0.8);
-    cursor: pointer;
 }
 
 /* Section 2 - Mini Projects */
@@ -246,7 +261,7 @@ header li, header a{
 
 /* Section 3 - Quotes */
 #quotes{
-    margin: 50px 0px;
+    margin: 35px 0px;
     padding: 80px 0px;
     text-align: center;
     font-size: var(--quote-txt-size);
@@ -255,8 +270,150 @@ header li, header a{
     color: var(--quote-txt-color);
 }
 
+/* Section 4 - Contact Me */
+#contact{
+    margin: 80px;
+}
+
+.call-to-action{
+    background-color: var(--btn-color); 
+    padding: 45px 100px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+
+.call-to-action *{
+    color: var(--header-logo-txt-color);
+}
+
+.details-coa{
+    flex-basis: 550px;    
+}
+
+.btn-outline{    
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+.social-logo{
+    height: 50px;
+    border-radius: 10px;
+}
+
+.contact-details ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    font-weight: 550;
+    background-color: var(--quote-bg-color);
+    border-radius: 10px;
+    padding: 5px 0;
+}
+
+/* Section 5 - Certificates */
+.certificates-header{
+        text-align: center;
+        margin: 15px 0;
+}
+
+.certificates-tiles ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
+    /* border: 2px solid blue; */
+}
+
+.certificates-tiles li{
+    height: 100px;           
+    overflow: hidden;
+    flex-basis: 600px;
+    flex-grow: 1;
+    /* flex-shrink: 0;    */
+}
+
+.certificates-tiles a{
+    position: relative;
+    display: inline-block;          
+    width: 100%;
+    height: 100%;
+}
+
+.cert-detail{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);    
+    color: var(--header-logo-txt-color);
+    text-align: center;    
+    display: flex;    
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5) inset;
+    padding: 5px;
+}
+
+.cert-detail *{
+    color: var(--header-logo-txt-color);    
+}
+
+.certificates-tiles img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    filter: blur(1px);
+}
+
+#cert-container li:hover h2, #cert-container li:hover p{
+    transform: scale(0.9);
+}
+
+#cert-container li:hover img{
+    transform: scale(1.1);
+}
+
+.cert-detail p{
+    font-style: italic;
+}
 /* Section 6 - Footer */
 
 #footer p{
     color: var(--secondary-text-color);
+}
+
+/* Insert Animation */
+header{
+    animation: fadeDown 1s ease-in-out 0s 1 forwards;    
+}
+
+.visual-left h1{
+    animation: fadeRight 1s ease-in-out 0.1s 1 backwards;
+}
+
+.visual-left p{
+    animation: fadeDown 1s ease-in-out 0.8s 1 backwards;
+}
+
+.visual-right{
+    animation: fadeLeft 1s ease-in-out 0.1s 1 backwards;
+    z-index: 11;
+}
+
+.btn a{ 
+    animation: pop 0.3s ease-in-out 1.5s 1 backwards;
+}
+
+/* Scroll Effect for Js*/
+
+.cards, .title-2, blockquote,#contact, .certificates-header h1, #cert-container{    
+    opacity: 0;
+    
 }
