@@ -145,7 +145,8 @@ header ul{
     list-style: none;
     flex-wrap: wrap;
     gap: 5px;
-    flex-grow: 1;        
+    flex-grow: 1; 
+    text-align: center;       
 }
 
 header li, header a{
