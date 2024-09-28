@@ -4,7 +4,7 @@ let certificates =
         id: 16,
         img: "mfiDiploma.png",
         alt: "College Diploma",
-        title: "College Diploma for Information Technology",
+        title: "Diploma for Information Technology",
         description: "Certificate in Information Technology"
     },
     {
@@ -167,6 +167,13 @@ let certificates =
         alt: "CSS Certification Test",
         title: "CSS Certification Test",
         description: "The bearer of this certificate has passed the HackerRank skill certification test",
+    },
+    {
+        id: 25,
+        img:"intro-cybersecurity.png",
+        alt: "Introduction to CyberSecurity",
+        title: "Introduction to CyberSecurity",
+        description: "Successfully achieved student level credential for completing the course, provided by DICT (Department of Information and Communication Technology) under CISCO Networking Academy",
     }
 
 ]
