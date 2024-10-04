@@ -174,6 +174,13 @@ let certificates =
         alt: "Introduction to CyberSecurity",
         title: "Introduction to CyberSecurity",
         description: "Successfully achieved student level credential for completing the course, provided by DICT (Department of Information and Communication Technology) under CISCO Networking Academy",
+    },
+    {
+        id: 26,
+        img:"intro-data-science.png",
+        alt: "Introduction to Data Science",
+        title: "Introduction to Data Science",
+        description: "Successfully achieved student level credential for completing the course, provided by CISCO Networking Academy",
     }
 
 ]
