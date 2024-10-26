@@ -54,7 +54,7 @@ let certificates =
         img: "RSC2023.png",
         alt: "Regional Skills Competition",
         title: "2023 District Skills Competition",
-        description: "Gold Medalist in <b>Web Technology</b> as a <b>Competitor</b>"
+        description: "Gold Medalist in <b>Web Technology</b> as a <b>Expert</b>"
     }
     , {
         id: 7,
@@ -181,6 +181,13 @@ let certificates =
         alt: "Introduction to Data Science",
         title: "Introduction to Data Science",
         description: "Successfully achieved student level credential for completing the course, provided by CISCO Networking Academy",
+    },
+    {        
+        id: 27,
+        img:"it-project.png",
+        alt: "IT Project Success",
+        title: "IT Project Success",
+        description: "Certificate of Participation - LinkedIt: Charting IT Project Success with Agile and Scrum Methodologies",        
     }
 
 ]

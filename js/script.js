@@ -1,4 +1,5 @@
 let certContainer = document.getElementById("cert-container")
+let cardsHTML = document.getElementsByClassName("cards")[0];
 
 //get certificates from my-certs.js and retrieve all data
 certificates.forEach(c => {
@@ -15,6 +16,25 @@ certificates.forEach(c => {
         </li>
     `
 });
+//get projects details from my-certs.js and retrieve all data
+projects.forEach(proj => {
+        cardsHTML.innerHTML += 
+        `
+            <a href="${proj.link}" target="_blank" class="card">
+                    <div class="card-thumbnail">
+                        <img src="media/projects-thumbnails/${proj.thumbnail}" alt="${proj.alt}">
+                    </div>
+                    <h1 class="title-card">
+                        ${proj.title}
+                    </h1>
+                    <p>
+                        ${proj.description}
+                    </p>
+            </a>        
+        
+        `
+    }
+)
 
 // Scroll Animation effect
 console.log("scrollY: ",window.scrollY)
