@@ -21,12 +21,26 @@ let projects = [
         description: "Welcome to PixelSketch! I created this browser-based tool that combines the fun of a sketchpad with the nostalgia of an Etch A Sketch.",
     },   
     {
+        link: "https://rommjames.github.io/admin-dashboard/",
+        thumbnail: "admin-dashboard.png",
+        alt: "admin-dashboard",
+        title: "Admin Dashboard",
+        description: "This project showcases my web layout skills using only HTML and CSS. It emphasizes the use of Flexbox and CSS Grid to create a responsive, visually appealing interface.",
+    },    
+    {
         link: "https://rommjames.github.io/vocalize-it/",
         thumbnail: "vocalize-it-thumbnail.png",
         alt: "vocalize-it-thumbnail",
         title: "VocalizeIt",
         description: "VocalizeIt is a Text-to-Speech (TTS) Web Application built with HTML, CSS, and JavaScript. It converts text into spoken words with customizable options, making it versatile for use in accessibility support, learning tools, and more.",
-    },    
+    },   
+    {
+        link: "https://rommjames.github.io/About-Me/",
+        thumbnail: "portfolio-thumbnail.png",
+        alt: "portfolio-thumbnail",
+        title: "My Portfolio",
+        description: "I create dynamic websites using HTML, CSS, and JavaScript, combining clean design with user-friendly functionality. Explore my projects to see my passion for innovative web solutions!",
+    },   
     {
         link: "projects/cube/index.html",
         thumbnail: "rubics.png",
