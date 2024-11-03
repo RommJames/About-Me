@@ -7,6 +7,13 @@ let projects = [
         description: "Welcome to PixelSketch! I created this browser-based tool that combines the fun of a sketchpad with the nostalgia of an Etch A Sketch.",
     },
     {
+        link: "https://rommjames.github.io/my-library/",
+        thumbnail: "my-library.png",
+        alt: "my-library-thumbnail",
+        title: "MyLibrary",
+        description: "MyLibrary: A Personal Book Management System! This simple, responsive app, built with vanilla HTML, CSS, and JavaScript, helps you manage your book collection effortlessly. It’s perfect for tracking your reading journey on both mobile and desktop.",
+    },
+    {
         link: "projects/aimtrainer/index.html",
         thumbnail: "aim-trainer.png",
         alt: "aim-trainer-thumbnail",
