@@ -1,4 +1,12 @@
 let projects = [
+
+    {
+        link: "https://rommjames.github.io/my-library/",
+        thumbnail: "my-library.png",
+        alt: "my-library-thumbnail",
+        title: "MyLibrary",
+        description: "MyLibrary: A Personal Book Management System! This simple, responsive app, built with vanilla HTML, CSS, and JavaScript, helps you manage your book collection effortlessly. It’s perfect for tracking your reading journey on both mobile and desktop.",
+    },
     {
         link: "https://rommjames.github.io/pixel-sketch/",
         thumbnail: "pixel-sketch-thumbnail.jpeg",
@@ -7,11 +15,11 @@ let projects = [
         description: "Welcome to PixelSketch! I created this browser-based tool that combines the fun of a sketchpad with the nostalgia of an Etch A Sketch.",
     },
     {
-        link: "https://rommjames.github.io/my-library/",
-        thumbnail: "my-library.png",
-        alt: "my-library-thumbnail",
-        title: "MyLibrary",
-        description: "MyLibrary: A Personal Book Management System! This simple, responsive app, built with vanilla HTML, CSS, and JavaScript, helps you manage your book collection effortlessly. It’s perfect for tracking your reading journey on both mobile and desktop.",
+        link: "https://rommjames.github.io/tic-tac-toe/",
+        thumbnail: "tic-tac-toe.png",
+        alt: "tic-tac-toe-thumbnail",
+        title: "Tic Tac Toe",
+        description: "I built a web-based Tic-Tac-Toe game where players can compete against a friend or an AI, with features like score tracking and multiple rounds. The game is designed using Factory Functions, Closures, and the Module Pattern for a modular and maintainable code structure.",
     },
     {
         link: "projects/aimtrainer/index.html",
