@@ -53,8 +53,36 @@ let certificates =
         id: 6,
         img: "RSC2023.png",
         alt: "Regional Skills Competition",
-        title: "2023 District Skills Competition",
+        title: "2023 Regional Skills Competition",
         description: "Gold Medalist in <b>Web Technology</b> as a <b>Expert</b>"
+    }
+    , {
+        id: 6.01,
+        img: "rsc-2023.jpg",
+        alt: "Regional Skills Competition",
+        title: "Certificate of Recognition - 2023 Regional Skills Competition",
+        description: "Gold Medalist in <b>Web Technology</b> as a <b>Expert</b>"
+    }
+    , {
+        id: 6.02,
+        img: "rsc-2023-appreciation.jpg",
+        alt: "Regional Skills Competition",
+        title: "Certificate of Appreciation - 2023 Regional Skills Competition",
+        description: "Gold Medalist in <b>Web Technology</b> as a <b>Expert</b>"
+    }
+    ,{
+        id: 6.1,
+        img: "pnsc-2024.jpg",
+        alt: "Philippine National Skills Competition",
+        title: "2024 Philippine National Skills Competition",
+        description: "Gold Medalist in <b>Web Technology</b> as a <b>Expert</b>"
+    }
+    ,{
+        id: 6.2,
+        img: "jdvp-appreciation.jpg",
+        alt: "Facilitating CSS NCII Joint Delivery Voucher Program",
+        title: "Facilitating CSS NCII Joint Delivery Voucher Program",
+        description: "Certification of Appreciation for dedicating time, exerting extra efforts and imparting knowledge"
     }
     , {
         id: 7,
@@ -77,13 +105,13 @@ let certificates =
         title: "Oracle SQL",
         description: "Successfully completing a free online course in Great Learning Academy"
     },
-    // {
-    //     id: 11,
-    //     img: "DSC2021.png",
-    //     alt: "District Skills Competition",
-    //     title: "2021 District Skills Competition",
-    //     description: "Gold Medalist in <b>Web Technology</b> as a <b>Competitor</b>"
-    // },
+    {
+        id: 11,
+        img: "project-facilitator.jpg",
+        alt: "Project Facilitator",
+        title: "Invaluable contribution as Project Facilitator",
+        description: "Certificate of Appreciation - for his invaluable contribution as Project failitator"
+    },
     {
         id: 12,
         img: "TM1.png",
